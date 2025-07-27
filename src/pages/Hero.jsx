@@ -68,7 +68,7 @@ export default function Hero() {
             duration: 0.3,
             delay: 0.5,
           }}
-          className="font-[Dancing_Script] text-9xl -rotate-8 absolute top-[28%] sm:top-[15%] left-1/2 transform -translate-x-1/2 text-[#84A59D] sm:text-[210px] font-bold tracking-widest z-20"
+          className="font-[Dancing_Script] text-9xl -rotate-8 absolute top-[20%] sm:top-[15%] left-1/2 transform -translate-x-1/2 text-[#84A59D] sm:text-[210px] font-bold tracking-widest z-20"
         >
           Priya
         </motion.p>
@@ -76,7 +76,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.8 }}
-          className="font-script text-[120px] sm:text-[250px] font-extrabold tracking-tight text-[#3D3D3D] uppercase leading-none"
+          className="font-script -mt-14  text-[110px] sm:text-[250px] font-extrabold tracking-tight text-[#3D3D3D] uppercase leading-none"
         >
           Singh
         </motion.h1>
@@ -94,7 +94,7 @@ export default function Hero() {
           duration: 0.5,
           delay: 1,
         }}
-        className=" absolute top-8 left-[2%] sm:left-[38%] transform hover:backdrop-blur-xl bg-white px-3 py-1 rounded text-sm backdrop-blur z-10 text-[#4B5563] hover:bg-[#84A59D] hover:text-white"
+        className=" absolute top-8 left-[2%] sm:left-[38%] transform hover:backdrop-blur-xl bg-white px-2 py-1 rounded text-sm backdrop-blur z-10 text-[#4B5563] hover:bg-[#84A59D] hover:text-white"
       >
         #HumanResource • #EmpathyDriven • #Leadership
       </motion.code>
