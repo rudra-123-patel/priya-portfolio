@@ -94,7 +94,7 @@ export default function Hero() {
           duration: 0.5,
           delay: 1,
         }}
-        className=" absolute top-8 left-[2%] sm:left-[38%] transform hover:backdrop-blur-xl bg-white px-1 py-1 rounded text-sm backdrop-blur z-10 text-[#4B5563] hover:bg-[#84A59D] hover:text-white"
+        className=" absolute top-8 left-[2%] sm:left-[38%] transform hover:backdrop-blur-xl bg-white px-1 py-1 rounded text-[12px] sm:text-sm backdrop-blur z-10 text-[#4B5563] hover:bg-[#84A59D] hover:text-white"
       >
         #HumanResource • #EmpathyDriven • #Leadership
       </motion.code>
